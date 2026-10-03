@@ -2,9 +2,13 @@
 
 Discover strain-specific representations from 24 h coculture responses and reuse them with a separate 48 h Predictor. No prespecified strain features are required as model inputs.
 
+![Graphical abstract: discovery and reuse of strain representations](graphical_abstract/graphical_abstract.png)
+
+CDLD discovers strain representations from 24 h coculture responses. These representations are held fixed while a new Predictor is trained on 48 h observations. In the exploratory training-data reduction experiment, fixed reuse had lower error than de novo discovery at 10%, 25% and 50%; an advantage was not established at 100%.
+
 ## Reproduce from upstream data
 
-This repository contains source code, configuration and notebook workflows. Raw data, prepared CSV/NPZ files, model checkpoints, selection records, predictions, logs and rendered figures are generated locally and are not distributed here.
+This repository contains source code, configuration and notebook workflows. Raw data, prepared CSV/NPZ files, model checkpoints, selection records, predictions, logs and other rendered figures are generated locally and are not distributed here. The graphical abstract above is included for the repository overview.
 
 Use Python 3.12 on macOS for the training workflow:
 
@@ -61,7 +65,7 @@ After the reduced-data evaluation has produced `fractions/evaluation/metrics.jso
 python graphical_abstract/generate_graphical_abstract.py
 ```
 
-The script reads those results and writes PNG/SVG artwork locally. Strain/vector symbols are schematic, not measured latent coordinates. Generated images are not tracked in this source-only repository.
+The script reads those results and writes PNG/SVG artwork locally. Strain/vector symbols are schematic, not measured latent coordinates. The overview PNG above is tracked; other generated artwork is excluded.
 
 ## Interpretation
 

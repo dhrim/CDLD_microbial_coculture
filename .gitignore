@@ -16,5 +16,6 @@ fractions/subsets/
 fractions/subsets.json
 fractions/evaluation/
 graphical_abstract/*.png
+!graphical_abstract/graphical_abstract.png
 graphical_abstract/*.svg
 graphical_abstract/*.csv
