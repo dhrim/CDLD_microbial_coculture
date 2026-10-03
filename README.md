@@ -57,16 +57,6 @@ Upstream: [amichaibk/community_effects](https://github.com/amichaibk/community_e
 
 `LF` denotes fixed reuse, `LU` reuse followed by CDLD discovery on 48 h observations, and `RU` de novo discovery on 48 h observations. Each strategy uses a separate Predictor fitted to its resulting fixed strain representations.
 
-## Generate the graphical abstract
-
-After the reduced-data evaluation has produced `fractions/evaluation/metrics.json`:
-
-```bash
-python graphical_abstract/generate_graphical_abstract.py
-```
-
-The script reads those results and writes PNG/SVG artwork locally. Strain/vector symbols are schematic, not measured latent coordinates. The overview PNG above is tracked; other generated artwork is excluded.
-
 ## Interpretation
 
 The training-data reduction experiment is exploratory and holds the validation set fixed. Cluster-bootstrap intervals are conditional on fitted models and concern the observed affecting-strain combinations. New-strain, batch and environment generalization and total experimental cost reduction were not evaluated.
