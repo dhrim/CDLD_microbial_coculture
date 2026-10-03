@@ -1,0 +1,89 @@
+{
+  "commit": "7a2e0a97ea26fd0eb26d0611ccbce57b2962b213",
+  "files": [
+    {
+      "file": "Data/Strains.xlsx",
+      "bytes": 2682031,
+      "sha256": "de40406fa7dbdabd6594c64a51f8a3ab64d1932eafc94a6830a218c8bdac5ab9"
+    },
+    {
+      "file": "k2_effects_data.csv",
+      "bytes": 2107364,
+      "sha256": "80720e7289359237d8e19cf1c9e36d9cae4d11cf62a4f0600f608f0299d5cb6e"
+    },
+    {
+      "file": "k3_effect_data.csv",
+      "bytes": 1477328,
+      "sha256": "9afc1ce2dd8e2b3aa52c20b159866bf53887c501bd7b502579a1dde33a0631cf"
+    },
+    {
+      "file": "usable_isos_per_target.csv",
+      "bytes": 2001,
+      "sha256": "bd496e3cbca06a9709459b716bfbb32e27da3ef0e8c51952abdca8122781f4a9"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip1.csv",
+      "bytes": 2392124,
+      "sha256": "7d10ea28561e35a9c4b88a0f6cb377c457bfa9de845b1abc976928e0691e9e45"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip2.csv",
+      "bytes": 2319783,
+      "sha256": "9f9b614c38e558047cfb9ff12f7714d65221e5d59863bac1d3d2123355260ead"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip3.csv",
+      "bytes": 1423913,
+      "sha256": "1760cc29e7e6b2a801ab24e72bd263998e992896b43f29fdbd822ac3b58b9b24"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip4.csv",
+      "bytes": 1705058,
+      "sha256": "6215e901e8b199d99a9a7df63cff286123cd168965da97981d4d337258f112b6"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip5.csv",
+      "bytes": 1893773,
+      "sha256": "0c27f533c2f82582617fe5153f0ed65bb331f035a33d5fa73d7a46a5b7b5b2a6"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip6.csv",
+      "bytes": 2205075,
+      "sha256": "67a5f1476c0e679d55b808ba0d32b485a2dd64f50b84f1dd11abd18e597dd3da"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip7.csv",
+      "bytes": 2860950,
+      "sha256": "02b68563e9803cd66760535428d471207786109532108b48fd169617d70374f5"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip8.csv",
+      "bytes": 2528737,
+      "sha256": "1e035f171a01f5cecb43e36ec78a2389a863486756b7487605eb263be289aada"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip9.csv",
+      "bytes": 2413304,
+      "sha256": "84b026c37f10d31eb54292f8ff3e8a6621abf16815b0b5775cf8b7369611c218"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip10.csv",
+      "bytes": 2675093,
+      "sha256": "2679d07741b392509a99c9e8b8fc0b2266bdda75052c4576688cc5187faf3893"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip11.csv",
+      "bytes": 2772090,
+      "sha256": "1c598cd9bc9c14372b540b9d170cb4736d65582fa261641e322999710a93ef44"
+    },
+    {
+      "file": "Data/kChip_data/k2/chip12.csv",
+      "bytes": 2761267,
+      "sha256": "326daf734521b36cdaf59ca1231913fe64676f952dcf157d6f4ec926e0a355ba"
+    },
+    {
+      "file": "Data/Isolate_profiling/gc_data.csv",
+      "sha256": "bbe954d3a23e4bef82035a0d5bb17c289afabeebb781b33e349ed8c80ed81698"
+    }
+  ]
+}

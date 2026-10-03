@@ -1,0 +1,65 @@
+{
+  "fraction": 1,
+  "seeds": [
+    17,
+    43,
+    101,
+    137,
+    211
+  ],
+  "latent_dim": 32,
+  "initialization": "normal(0,0.1)",
+  "batch": 64,
+  "lr": 0.0003,
+  "l2": 0.001,
+  "latent_l2": 0,
+  "dropout": 0.1,
+  "finder": {
+    "cap": 1000,
+    "min": 50,
+    "patience": 100,
+    "min_delta": 1e-05,
+    "max_cap": 4000
+  },
+  "reader": {
+    "cap": 1500,
+    "min": 50,
+    "patience": 100,
+    "min_delta": 1e-05,
+    "max_cap": 6000
+  },
+  "latent_adam": "reset at each selected-member turn",
+  "selection": "source mean two-Finder validation MSE; reader validation MSE",
+  "cap_policy": "validation-only doubling to max_cap; hold test if still unresolved",
+  "test_used_for_training": false,
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "source_id_model": "focal-specific intercept and focal-specific additive affecting strain effects",
+  "conditions": [
+    "LF",
+    "LU",
+    "RU"
+  ],
+  "fractions": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "repeats": 10,
+  "primary_contrast": "LF-RU",
+  "primary_family": 4,
+  "secondary_family": 20,
+  "baseline_family": 12,
+  "bootstrap_repeats": 20000,
+  "bootstrap_seed": 20261002,
+  "training_stages": 775
+}
