@@ -1,4 +1,4 @@
-# CDLD for microbial coculture prediction
+# Discovering strain latent traits for microbial coculture prediction
 
 Discover strain-specific representations from 24 h coculture responses and reuse them with a separate 48 h Predictor. No prespecified strain features are required as model inputs.
 
