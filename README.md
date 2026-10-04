@@ -8,7 +8,7 @@ CDLD discovers strain representations from 24 h coculture responses. These repre
 
 ## Reproduce from upstream data
 
-This repository contains source code, configuration and notebook workflows. Raw data, prepared CSV/NPZ files, model checkpoints, selection records, predictions, logs and other rendered figures are generated locally and are not distributed here. The graphical abstract above is included for the repository overview.
+This repository contains the code and notebooks for reproducing the study. Raw data, prepared CSV/NPZ files, model checkpoints, selection records, predictions, logs and other rendered figures are generated locally and are not distributed here. The graphical abstract above is included for the repository overview.
 
 Use Python 3.12 on macOS for the training workflow:
 
@@ -25,7 +25,7 @@ Run the notebooks in this order:
 2. [01_Mac_Training.ipynb](01_Mac_Training.ipynb): train discovery and prediction models, choose models using validation data and evaluate training-data fractions.
 3. [03_Mac_Full_Data_Evaluation.ipynb](03_Mac_Full_Data_Evaluation.ipynb): evaluate trained models on the primary and alternative splits.
 
-Notebook 02 is not required. Output cells are empty in this source-only distribution; executing the notebooks produces their outputs. Model training is configured for macOS CPUs with four concurrent jobs. It may require substantial time and disk space. [runtime.json](runtime.json) specifies the recorded environment for the reported experiments.
+Notebook 02 is not required. The training and evaluation notebooks include saved execution results. Model training is configured for macOS CPUs with four concurrent jobs. It may require substantial time and disk space. [runtime.json](runtime.json) specifies the recorded environment for the reported experiments.
 
 For data preparation alone, only NumPy and pandas are needed:
 
